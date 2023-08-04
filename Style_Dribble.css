@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#navigation-bar{
+    height: 80px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items:center;
+    justify-content:space-between; 
+}
+
+#navigation-bar img{
+    height:31.5px;
+    width: 100px;
+    padding: 6px 6px;
+}
+
+
+
+#nav-bar_part-left{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18.5px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left:20px ;
+
+} 
+
+#nav-bar_part-left h5{
+    color: #858590;
+    font-weight: 600;
+}
+
+#nav-bar_part-left h5:hover{
+    color:#000000b5;
+    cursor: pointer;
+    
+}
+
+#nav-bar_part-right{
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    gap: 25px;
+    margin-right: 45px;
+} 
+
+#nav-bar_part-right:hover{
+    cursor: pointer;
+}
+
+#nav-bar_part-right i{
+    font-size: 19.5px;
+    color: #A4A4AC;
+}
+
+#nav-bar_part-right button{
+    font-size: 16.5px;
+    padding: 12.5px 16.5px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 200px;
+   
+}
+
+#nav-bar_part-right button:hover{
+    cursor: pointer;
+}
+
+#btm{
+    color: #7F7E8A;
+    background-color: white;
+}
+
+#btn{
+    background-color:  #f25591;
+    color: white;
+    
+}
+
+#Anime-nav{
+    height: 87.2%;
+    width:100%;
+    background-color:aqua;
+    position: relative;
+    
+}
+#Anime-nav video{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#overlay{
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    background-color: #00000062;
+}
+
+#overlay-elements{
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#overlay-elements h4{
+    background-color: #0000009f;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16.5px;
+    font-weight: 400;
+    padding: 18.5px 25px;
+    border-radius: 35px;
+}
+
+#overlay-elements h4:hover{
+    background-color: white;
+    color: #000000ec;
+    cursor: pointer;
+}
+
+#overlay-elements #Discover{
+    background-color: #fff;
+    color: #000;
+}
+
+#overlay #Line1{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#overlay #Line2{
+    position: absolute;
+    top: 37.5%;
+    left: 41%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#overlay p1{
+    position: absolute;
+    top: 49.5%;
+    left: 27%;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+#overlay p2{
+    position: absolute;
+    top: 54.5%;
+    left: 30%;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+#overlay input{
+    
+    height: 10%;
+    width: 45%;
+    
+    margin-top: 350px;
+    margin-left: 398px;
+    padding: 15px 10px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    
+    
+}
+
+#Trending-section{
+    /* background-color: red; */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15.5px;
+    font-weight: 50;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-left:340px ;
+    margin-top: 48px;
+
+}
+
+#Trending-section h3{
+    font-size: 13px;
+    color: #fff;
+    font-weight: 100;
+}
+
+#Trending-section h4{
+    border: solid white 0.2px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16.5px;
+    font-weight: 400;
+    padding: 5.5px 10px;
+    border-radius: 35px;
+}
+
+#Trending-section h4:hover{
+    cursor: pointer;
+}
+
+#author{
+    margin-left: 1275px;
+    margin-top: 32px;
+    color: #fff;
+    font-weight: 500;
+}
+
+#Content-section{
+   
+    height:100% ;
+    width:100% ;
+    padding: 60px;
+}
+
+.element{
+    background-color: #ff0000;
+    height: 210px;
+    width: 280px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 10px;
+
+
+}
+
+.element:hover{
+    cursor: pointer;
+}
+.element img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  
+}
+
+#signin-up {
+    /* background-color: red; */
+    height: 50px;
+    width: 100%;
+}
+
+#signin-up button{
+    margin-top: 10px;
+    margin-left: 450px;
+    padding: 13px 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f53881;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#signin-up button:hover{
+    cursor: pointer;
+    background-color:  #f25591;
+}
+
+#signin-up p{
+    margin-top: -30px;
+    margin-left: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff0062;
+}
+
+#signin-up p:hover{
+    cursor: pointer;
+}
